@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    text-align: center;
+}
+
+#card{
+    margin: auto;
+    width: 320px;
+    background: url(/images/bg-pattern-card.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 5%;
+    text-align: center;
+}
+
+#break {
+    margin: 0;
+}
+
+#card-stats {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#pp {
+    margin-top: 90px;
+    border-radius: 50%;
+    border: 5px;
+    border-color: white;
+    border-style: solid;
+}
+
+.stat {
+    margin: 15%;
+}
+
+#name ,.number {
+    font-family: Kumbh Sans;
+    font-weight: 700;
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+}
+
+#age, #city{
+    font-family: Kumbh Sans;
+    font-weight: 400;
+}
+
+.caption {
+    font-family: Kumbh Sans;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+#infos {
+    margin: 5%;
+}
+
+#name, #age, #city {
+    display: inline-block;
+    margin: 2%;
+}
